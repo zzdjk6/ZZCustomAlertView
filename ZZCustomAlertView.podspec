@@ -12,16 +12,15 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "ZZCustomAlertView is an alert view that you can totally customize it."
   s.description      = <<-DESC
-                       An optional longer description of ZZCustomAlertView
+ZZCustomAlertView is an alert view that you can totally customize it.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+visit https://github.com/zzdjk6/ZZCustomAlertView for more details.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ZZCustomAlertView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/zzdjk6/ZZCustomAlertView"
+  s.screenshots     = "https://github.com/zzdjk6/ZZCustomAlertView/raw/master/ZZCustomeAlertView%20Customized.png", "https://github.com/zzdjk6/ZZCustomAlertView/raw/master/ZZCustomAlertView%20Plain.png"
   s.license          = 'MIT'
   s.author           = { "zzdjk6" => "zzdjk6@126.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ZZCustomAlertView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/zzdjk6/ZZCustomAlertView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'

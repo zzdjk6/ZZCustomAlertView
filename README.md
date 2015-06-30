@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/ZZCustomAlertView.svg?style=flat)](http://cocoapods.org/pods/ZZCustomAlertView)
 [![Platform](https://img.shields.io/cocoapods/p/ZZCustomAlertView.svg?style=flat)](http://cocoapods.org/pods/ZZCustomAlertView)
 
+ZZCustomAlertView is an ios alert view that you can totally customize it.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

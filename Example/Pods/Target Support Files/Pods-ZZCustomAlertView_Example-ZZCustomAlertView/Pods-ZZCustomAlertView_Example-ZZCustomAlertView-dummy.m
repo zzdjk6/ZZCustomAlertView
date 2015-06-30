@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_ZZCustomAlertView_Example_ZZCustomAlertView : NSObject
+@end
+@implementation PodsDummy_Pods_ZZCustomAlertView_Example_ZZCustomAlertView
+@end

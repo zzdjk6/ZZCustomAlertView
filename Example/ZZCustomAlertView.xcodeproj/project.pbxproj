@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		19D10790F6497ACE1CA8E3A6 /* Pods_ZZCustomAlertView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B13BBE34D004B5E3A2F577 /* Pods_ZZCustomAlertView_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		240F055B1B42FFF500EC3728 /* ZZCustomAlertView Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 240F05581B42FFF500EC3728 /* ZZCustomAlertView Background.png */; };
+		240F055C1B42FFF500EC3728 /* ZZCustomAlertView Plain.png in Resources */ = {isa = PBXBuildFile; fileRef = 240F05591B42FFF500EC3728 /* ZZCustomAlertView Plain.png */; };
+		240F055D1B42FFF500EC3728 /* ZZCustomeAlertView Customized.png in Resources */ = {isa = PBXBuildFile; fileRef = 240F055A1B42FFF500EC3728 /* ZZCustomeAlertView Customized.png */; };
+		245912601B397BC7004829AC /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2459125D1B397BC7004829AC /* Background.jpg */; };
+		245912611B397BC7004829AC /* Perfect Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2459125E1B397BC7004829AC /* Perfect Button.png */; };
+		245912621B397BC7004829AC /* Perfect Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2459125F1B397BC7004829AC /* Perfect Button@2x.png */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -36,8 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		240F05581B42FFF500EC3728 /* ZZCustomAlertView Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZZCustomAlertView Background.png"; sourceTree = "<group>"; };
+		240F05591B42FFF500EC3728 /* ZZCustomAlertView Plain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZZCustomAlertView Plain.png"; sourceTree = "<group>"; };
+		240F055A1B42FFF500EC3728 /* ZZCustomeAlertView Customized.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZZCustomeAlertView Customized.png"; sourceTree = "<group>"; };
+		2459125D1B397BC7004829AC /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
+		2459125E1B397BC7004829AC /* Perfect Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Perfect Button.png"; sourceTree = "<group>"; };
+		2459125F1B397BC7004829AC /* Perfect Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Perfect Button@2x.png"; sourceTree = "<group>"; };
 		2EA479E53AE3B23AC094FC8B /* Pods-ZZCustomAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZCustomAlertView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZCustomAlertView_Tests/Pods-ZZCustomAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* ZZCustomAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ZZCustomAlertView.app; path = ZZCustomAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* ZZCustomAlertView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZCustomAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -50,7 +62,7 @@
 		6003F5A5195388D20070C39A /* ZZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* ZZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = ZZCustomAlertView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* ZZCustomAlertView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZCustomAlertView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -107,6 +119,9 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				240F05581B42FFF500EC3728 /* ZZCustomAlertView Background.png */,
+				240F05591B42FFF500EC3728 /* ZZCustomAlertView Plain.png */,
+				240F055A1B42FFF500EC3728 /* ZZCustomeAlertView Customized.png */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for ZZCustomAlertView */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -119,8 +134,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* ZZCustomAlertView.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* ZZCustomAlertView_Example.app */,
+				6003F5AE195388D20070C39A /* ZZCustomAlertView_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +156,9 @@
 		6003F593195388D20070C39A /* Example for ZZCustomAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				2459125D1B397BC7004829AC /* Background.jpg */,
+				2459125E1B397BC7004829AC /* Perfect Button.png */,
+				2459125F1B397BC7004829AC /* Perfect Button@2x.png */,
 				6003F59C195388D20070C39A /* ZZAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -213,7 +231,7 @@
 			);
 			name = ZZCustomAlertView_Example;
 			productName = ZZCustomAlertView;
-			productReference = 6003F58A195388D20070C39A /* ZZCustomAlertView.app */;
+			productReference = 6003F58A195388D20070C39A /* ZZCustomAlertView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* ZZCustomAlertView_Tests */ = {
@@ -234,7 +252,7 @@
 			);
 			name = ZZCustomAlertView_Tests;
 			productName = ZZCustomAlertViewTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* ZZCustomAlertView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -277,7 +295,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				245912621B397BC7004829AC /* Perfect Button@2x.png in Resources */,
+				245912601B397BC7004829AC /* Background.jpg in Resources */,
+				240F055D1B42FFF500EC3728 /* ZZCustomeAlertView Customized.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				240F055C1B42FFF500EC3728 /* ZZCustomAlertView Plain.png in Resources */,
+				245912611B397BC7004829AC /* Perfect Button.png in Resources */,
+				240F055B1B42FFF500EC3728 /* ZZCustomAlertView Background.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

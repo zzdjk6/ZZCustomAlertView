@@ -1,0 +1,14 @@
+PODS:
+  - ZZCustomAlertView (0.1.0)
+
+DEPENDENCIES:
+  - ZZCustomAlertView (from `../`)
+
+EXTERNAL SOURCES:
+  ZZCustomAlertView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZZCustomAlertView: db0afee14672a7a4f84b3915a30ac7527d3779bd
+
+COCOAPODS: 0.37.0

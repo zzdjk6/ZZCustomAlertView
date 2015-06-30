@@ -1,0 +1,25 @@
+{
+  "name": "ZZCustomAlertView",
+  "version": "0.1.0",
+  "summary": "A short description of ZZCustomAlertView.",
+  "description": "                       An optional longer description of ZZCustomAlertView\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ZZCustomAlertView",
+  "license": "MIT",
+  "authors": {
+    "zzdjk6": "zzdjk6@126.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ZZCustomAlertView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "ZZCustomAlertView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

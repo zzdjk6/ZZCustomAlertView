@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "ZZCustomAlertView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of ZZCustomAlertView."
+  s.summary          = "ZZCustomAlertView is an alert view that you can totally customize it."
   s.description      = <<-DESC
                        An optional longer description of ZZCustomAlertView
 
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ZZCustomAlertView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

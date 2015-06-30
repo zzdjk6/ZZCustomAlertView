@@ -1,0 +1,6 @@
+framework module Pods_ZZCustomAlertView_Example {
+  umbrella header "Pods-ZZCustomAlertView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
